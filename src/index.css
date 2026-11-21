@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background-color: #f8fafc; }
+/* ---------- Milex Operations — motion, flat colour (no gradient / no shadow), mobile-safe inputs ---------- */
+@keyframes hintIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes popIn { 0% { opacity: 0; transform: scale(.94); } 100% { opacity: 1; transform: none; } }
+@keyframes slideIn { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
+@keyframes attention { 0%, 100% { box-shadow: none; transform: none; } 50% { transform: scale(1.015); } }
+@keyframes fieldShake { 0%, 100% { transform: none; } 25% { transform: translateX(-4px); } 75% { transform: translateX(4px); } }
+
+/* flat design: remove shadows and gradients everywhere */
+[class*="shadow-"], .shadow { box-shadow: none !important; }
+[class*="bg-gradient"] { background-image: none !important; }
+
+/* smooth state changes on everything interactive */
+button, a, input, select, textarea, summary, [role="button"] { transition: background-color .2s ease, color .2s ease, border-color .2s ease, transform .15s ease, opacity .2s ease; }
+button:not(:disabled):hover, a.rounded-lg:hover, a.rounded-xl:hover { transform: translateY(-1px); }
+button:not(:disabled):active, a.rounded-lg:active { transform: scale(.97); }
+button:disabled { cursor: not-allowed; }
+.card-hover { transition: transform .2s ease, border-color .2s ease, background-color .2s ease; }
+.card-hover:hover { transform: translateY(-2px); }
+.anim-fade-up { animation: fadeUp .35s ease-out both; }
+.anim-pop { animation: popIn .25s ease-out both; }
+.anim-attention { animation: attention 1.6s ease-in-out infinite; }
+.field-error { animation: fieldShake .3s ease; border-color: #dc2626 !important; background-color: #fef2f2 !important; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
+
+/* comfortable inputs; 16px on phones so the browser never zooms in on focus */
+main :is(input, select, textarea):not([type="checkbox"], [type="radio"], [type="file"], [type="range"]) { min-height: 2.6rem; padding-inline: .8rem; border-radius: .6rem; }
+main table :is(input, select) { min-height: 2.2rem; }
+main textarea { padding-block: .6rem; }
+main :is(input, select, textarea):focus { outline: none; border-color: #059669; background-color: #fff; }
+@media (max-width: 767px) {
+  input, select, textarea { font-size: 16px !important; }
+  html { -webkit-text-size-adjust: 100%; }
+}
+body { overflow-x: hidden; }

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1, "manifestNo": "MFN000001", "version": 1, "status": "APPROVED", "templateCode": "EXPORT_STANDARD",
+    "route": { "principal": "LHR / ISE Logistics (London)", "department": "Export", "area": "London", "origin": "Dhaka", "destination": "London" },
+    "flight": { "mawbNo": "157-48210934", "flightNo": "QR 639", "date": "2026-10-20", "loadingPort": "DAC", "dischargePort": "LHR" },
+    "extraHeader": {},
+    "rows": [
+      { "shipmentId": "MLX-EXP-000001", "clientEmail": "client@milex.local", "hawbNo": "MLX-AWB-000001", "consignmentNo": "", "shipperName": "Advance Denim Co Ltd", "shipperAddress": "Banani, Dhaka", "consigneeName": "Northwind Apparel Ltd", "consigneeAddress": "14 Cheapside, London", "phone": "+442071234567", "commodity": "Cotton Denim Jackets (Sample)", "hsCode": "6203.42", "pieces": 40, "weightKg": 29.5, "destCountry": "GB", "originStation": "DAC", "destStation": "LHR", "customsValue": 1200, "currency": "USD", "bin": "000794605-0101", "bagNo": "B-01", "serviceProvider": "LHR / ISE Logistics", "service": "", "labelNo": "LBL-MLX-EXP-000001" },
+      { "shipmentId": "MLX-EXP-000004", "clientEmail": "client2@milex.local", "hawbNo": "MLX-AWB-000004", "consignmentNo": "", "shipperName": "Rahman Knitwear Ltd", "shipperAddress": "Uttara, Dhaka", "consigneeName": "Nordic Style GmbH", "consigneeAddress": "Hafenstrasse 4, Hamburg", "phone": "+4940123456", "commodity": "Knit Tops", "hsCode": "", "pieces": 10, "weightKg": 12, "destCountry": "DE", "originStation": "DAC", "destStation": "HAM", "customsValue": 400, "currency": "USD", "bin": "", "bagNo": "B-02", "serviceProvider": "LHR / ISE Logistics", "service": "", "labelNo": "" }
+    ],
+    "totals": { "pieces": 50, "weightKg": 41.5, "value": 1600 },
+    "preparedBy": "Sabbir Hossain", "checkedBy": "Nasir Uddin", "submissionRef": "EGM-2026-1020", "authorisation": null, "createdBy": "Sabbir Hossain", "createdAt": "2026-10-18T10:00:00.000Z"
+  },
+  {
+    "id": 2, "manifestNo": "MFN000002", "version": 1, "status": "FINAL", "templateCode": "EXPORT_STANDARD",
+    "route": { "principal": "Linex (Dubai)", "department": "Export", "area": "Dubai", "origin": "Dhaka", "destination": "Dubai" },
+    "flight": { "mawbNo": "176-30011822", "flightNo": "EK 585", "date": "2026-09-24", "loadingPort": "DAC", "dischargePort": "DXB" },
+    "extraHeader": {},
+    "rows": [
+      { "shipmentId": "MLX-EXP-000003", "clientEmail": "client@milex.local", "hawbNo": "MLX-AWB-000003", "consignmentNo": "", "shipperName": "Advance Denim Co Ltd", "shipperAddress": "Banani, Dhaka", "consigneeName": "Gulf Trends LLC", "consigneeAddress": "Shop 12, Al Karama, Dubai", "phone": "+971501234567", "commodity": "Denim Trousers", "hsCode": "6203.42", "pieces": 20, "weightKg": 18.4, "destCountry": "AE", "originStation": "DAC", "destStation": "DXB", "customsValue": 900, "currency": "USD", "bin": "000794605-0101", "bagNo": "B-01", "serviceProvider": "Linex", "service": "", "labelNo": "" }
+    ],
+    "totals": { "pieces": 20, "weightKg": 18.4, "value": 900 },
+    "preparedBy": "Sabbir Hossain", "checkedBy": "Nasir Uddin", "submissionRef": "EGM-2026-0924",
+    "authorisation": { "text": "Authorised for export clearance.", "signatory": "Nasir Uddin", "title": "C&F Agent", "signedAt": "2026-09-23", "cnfRef": "CNF-0923-11", "file": null, "recordedBy": "Nasir Uddin" },
+    "createdBy": "Sabbir Hossain", "createdAt": "2026-09-22T17:00:00.000Z"
+  }
+]

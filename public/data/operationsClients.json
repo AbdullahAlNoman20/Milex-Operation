@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1, "customerId": "MLX260763", "status": "ACTIVE",
+    "accountName": "Kenpark Bangladesh Apparel Pvt Ltd K-2", "managingPartner": "", "contactPerson": "Md. Rashid Abid Sadman",
+    "mobile": "+8801676633617", "fax": "", "email": "client@milex.local", "address": "Karnaphuli Export Processing Zone, Chittagong", "area": "Chittagong", "zone": "South",
+    "businessType": "Garments", "serviceRequired": ["OB", "IB"], "accountMode": "Express", "accountType": "Credit", "creditLimitAmount": 500000, "creditPeriodDays": 30,
+    "recommendation": { "date": "2026-08-25", "time": "", "kam": "", "status": "Approved", "rateRefNo": "", "approvedRateText": "", "preparedBy": "", "recommendedBy": "", "approvedBy": "", "approvalProcess": "", "rateSignedBy": "", "contractSignedBy": "" },
+    "contacts": [ { "type": "Key Contact Person", "name": "Md. Rashid Abid Sadman", "designation": "Assistant Merchandiser", "mobile": "+8801676633617", "email": "Abid.Sadman@hirdaramani.com" } ],
+    "projected": [],
+    "profile": { "effectiveDate": "", "closingDate": "", "binNumber": "", "tinNumber": "", "preferredCarrier": "", "destinations": "", "natureOfBusiness": "", "accountUpdateType": [], "date": "2026-08-25", "accountCreatedBy": "", "accountHandledBy": "", "specialInstructions": "", "checkedBy": "", "approvedBy": "", "distributedTo": [] },
+    "rateCard": [
+      { "mode": "EXPORT", "country": "United Kingdom", "baseCharge": 0, "perKg": 6.5, "minCharge": 20, "currency": "USD", "version": "RC-2026-01" },
+      { "mode": "EXPORT", "country": "United States", "baseCharge": 0, "perKg": 7.2, "minCharge": 25, "currency": "USD", "version": "RC-2026-01" },
+      { "mode": "IMPORT", "country": "China", "baseCharge": 0, "perKg": 4.8, "minCharge": 15, "currency": "USD", "version": "RC-2026-01" }
+    ]
+  },
+  {
+    "id": 2, "customerId": "MLX379128", "status": "ACTIVE",
+    "accountName": "FASHION OVERSEAS", "managingPartner": "MR. MAHABUBUR RAHMAN NIPU", "contactPerson": "MR. BIPLOB",
+    "mobile": "", "fax": "", "email": "fashions@overseas.com", "address": "PLOT-112,MOUCHAK MODEL CITY,KALIAKOIR,GAZIPUR", "area": "", "zone": "",
+    "businessType": "Garments", "serviceRequired": ["OB"], "accountMode": "Express", "accountType": "Credit", "creditLimitAmount": 150000, "creditPeriodDays": 15,
+    "recommendation": {
+      "date": "2026-10-12", "time": "4:12 PM", "kam": "Subrota Dutta Shuvo", "status": "Approved", "rateRefNo": "REF-MLX379128",
+      "approvedRateText": "ISREAL-$25+7.59, BRAZIL-$32+7.25", "preparedBy": "Subrota Dutta Shuvo", "recommendedBy": "Subrota Dutta Shuvo", "approvedBy": "",
+      "approvalProcess": "", "rateSignedBy": "", "contractSignedBy": ""
+    },
+    "contacts": [
+      { "type": "Senior Management", "name": "MR. MAHABUBUR RAHMAN NIPU", "designation": "MD", "mobile": "+8801819859629", "email": "" },
+      { "type": "Key Contact Person", "name": "MR. BIPLOB", "designation": "GENAREL MANAGER", "mobile": "+8801713562777", "email": "BIPLOP@FASHIONSOVERSEAS.COM" },
+      { "type": "Finance Contact", "name": "MR. BIPLOB", "designation": "GENAREL MANAGER", "mobile": "+8801713562777", "email": "BIPLOP@FASHIONSOVERSEAS.COM" }
+    ],
+    "projected": [
+      { "shipmentType": "EXPORT", "country": "Brazil", "avgVolume": 3, "weightKg": 15, "revenueUsd": 200, "currentProvider": "Aramex" },
+      { "shipmentType": "EXPORT", "country": "Israel", "avgVolume": 5, "weightKg": 30, "revenueUsd": 600, "currentProvider": "Aramex" }
+    ],
+    "profile": {
+      "effectiveDate": "", "closingDate": "", "binNumber": "", "tinNumber": "", "preferredCarrier": "", "destinations": "", "natureOfBusiness": "",
+      "accountUpdateType": [], "date": "2026-10-12", "accountCreatedBy": "Subrota Dutta Shuvo", "accountHandledBy": "Subrota Dutta Shuvo",
+      "specialInstructions": "", "checkedBy": "", "approvedBy": "", "distributedTo": []
+    },
+    "rateCard": [
+      { "mode": "EXPORT", "country": "Israel", "baseCharge": 25, "perKg": 7.59, "minCharge": 0, "currency": "USD", "version": "REF-MLX379128" },
+      { "mode": "EXPORT", "country": "Brazil", "baseCharge": 32, "perKg": 7.25, "minCharge": 0, "currency": "USD", "version": "REF-MLX379128" }
+    ]
+  }
+]

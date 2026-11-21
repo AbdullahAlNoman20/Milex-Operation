@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Kenpark Client",
+    "email": "client@milex.local",
+    "password": "Test@Pass123!",
+    "role": "CLIENT",
+    "language": "en"
+  },
+  {
+    "id": 2,
+    "name": "Operations Head",
+    "email": "head@milex.local",
+    "password": "Test@Pass123!",
+    "role": "OPERATIONS_HEAD",
+    "language": "en"
+  },
+  {
+    "id": 3,
+    "name": "Operations Supervisor BD",
+    "email": "supervisor@milex.local",
+    "password": "Test@Pass123!",
+    "role": "DOMESTIC_ADMIN",
+    "language": "en"
+  },
+  {
+    "id": 4,
+    "name": "Li Wei (Foreign Supervisor)",
+    "email": "foreign@milex.local",
+    "password": "Test@Pass123!",
+    "role": "FOREIGN_ADMIN",
+    "language": "zh",
+    "originCountry": "China"
+  },
+  {
+    "id": 5,
+    "name": "Rahim Courier",
+    "email": "courier@milex.local",
+    "password": "Test@Pass123!",
+    "role": "COURIER",
+    "language": "en"
+  },
+  {
+    "id": 6,
+    "name": "Precious Logistics C&F",
+    "email": "cnf@milex.local",
+    "password": "Test@Pass123!",
+    "role": "CNF",
+    "language": "en"
+  },
+  {
+    "id": 7,
+    "name": "Fashion Overseas (Biplob)",
+    "email": "fashions@overseas.com",
+    "password": "Test@Pass123!",
+    "role": "CLIENT",
+    "language": "en"
+  },
+  {
+    "id": 8,
+    "name": "Subrota Dutta Shuvo",
+    "email": "kam@milex.local",
+    "password": "Test@Pass123!",
+    "role": "KAM",
+    "language": "en"
+  }
+]

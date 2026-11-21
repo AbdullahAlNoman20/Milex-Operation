@@ -1,0 +1,21 @@
+[
+  { "id": 1, "approvalNo": "APR-00001", "shipmentId": "MLX-EXP-000002", "gate": "GATE_1", "gateLabel": "Gate 1 — Booking / Import Request Approval", "mode": "EXPORT", "status": "PENDING",
+    "requestedBy": { "name": "Operations Supervisor BD", "email": "supervisor@milex.local", "role": "DOMESTIC_ADMIN" }, "requestedAt": "2026-11-11T10:00:00.000Z", "note": "All documents created.",
+    "docVersions": { "INVOICE": 1, "PACKING_LIST": 1 }, "checklist": [{ "label": "Minimum shipment data complete", "ok": true, "required": true, "detail": "" }, { "label": "Client commercial confirmation (or stored waiver)", "ok": true, "required": true, "detail": "" }],
+    "clientConfirmation": "CONFIRMED", "exceptions": [], "decision": null, "resubmissionOf": null },
+  { "id": 2, "approvalNo": "APR-00002", "shipmentId": "MLX-EXP-000003", "gate": "GATE_1", "gateLabel": "Gate 1 — Booking / Import Request Approval", "mode": "EXPORT", "status": "APPROVED",
+    "requestedBy": { "name": "Operations Supervisor BD", "email": "supervisor@milex.local", "role": "DOMESTIC_ADMIN" }, "requestedAt": "2026-11-10T09:00:00.000Z", "note": "",
+    "docVersions": { "INVOICE": 1 }, "checklist": [], "clientConfirmation": "CONFIRMED", "exceptions": [], "decision": { "by": "Operations Head", "role": "OPERATIONS_HEAD", "at": "2026-11-10T11:00:00.000Z", "comment": "" }, "resubmissionOf": null },
+  { "id": 3, "approvalNo": "APR-00003", "shipmentId": "MLX-EXP-000004", "gate": "GATE_1", "gateLabel": "Gate 1 — Booking / Import Request Approval", "mode": "EXPORT", "status": "APPROVED",
+    "requestedBy": { "name": "Operations Supervisor BD", "email": "supervisor@milex.local", "role": "DOMESTIC_ADMIN" }, "requestedAt": "2026-11-09T09:00:00.000Z", "note": "",
+    "docVersions": { "INVOICE": 1 }, "checklist": [], "clientConfirmation": "CONFIRMED", "exceptions": [], "decision": { "by": "Operations Head", "role": "OPERATIONS_HEAD", "at": "2026-11-09T11:00:00.000Z", "comment": "" }, "resubmissionOf": null },
+  { "id": 4, "approvalNo": "APR-00004", "shipmentId": "MLX-EXP-000005", "gate": "GATE_1", "gateLabel": "Gate 1 — Booking / Import Request Approval", "mode": "EXPORT", "status": "APPROVED",
+    "requestedBy": { "name": "Operations Supervisor BD", "email": "supervisor@milex.local", "role": "DOMESTIC_ADMIN" }, "requestedAt": "2026-11-03T09:00:00.000Z", "note": "",
+    "docVersions": { "INVOICE": 1 }, "checklist": [], "clientConfirmation": "CONFIRMED", "exceptions": [], "decision": { "by": "Operations Head", "role": "OPERATIONS_HEAD", "at": "2026-11-03T11:00:00.000Z", "comment": "" }, "resubmissionOf": null },
+  { "id": 5, "approvalNo": "APR-00005", "shipmentId": "MLX-EXP-000005", "gate": "GATE_2", "gateLabel": "Gate 2 — Document Pack Approval", "mode": "EXPORT", "status": "APPROVED",
+    "requestedBy": { "name": "Operations Supervisor BD", "email": "supervisor@milex.local", "role": "DOMESTIC_ADMIN" }, "requestedAt": "2026-11-06T09:00:00.000Z", "note": "",
+    "docVersions": { "INVOICE": 1, "PACKING_LIST": 1, "DECLARATION": 1, "AWB": 1 }, "checklist": [], "clientConfirmation": "CONFIRMED", "exceptions": [], "decision": { "by": "Operations Head", "role": "OPERATIONS_HEAD", "at": "2026-11-06T12:00:00.000Z", "comment": "" }, "resubmissionOf": null },
+  { "id": 6, "approvalNo": "APR-00006", "shipmentId": "MLX-IMP-000001", "gate": "GATE_1", "gateLabel": "Gate 1 — Booking / Import Request Approval", "mode": "IMPORT", "status": "APPROVED",
+    "requestedBy": { "name": "Kenpark Client", "email": "client@milex.local", "role": "CLIENT" }, "requestedAt": "2026-11-10T09:00:00.000Z", "note": "Import request submitted",
+    "docVersions": {}, "checklist": [], "clientConfirmation": "CONFIRMED", "exceptions": [], "decision": { "by": "Operations Head", "role": "OPERATIONS_HEAD", "at": "2026-11-10T11:00:00.000Z", "comment": "" }, "resubmissionOf": null }
+]
